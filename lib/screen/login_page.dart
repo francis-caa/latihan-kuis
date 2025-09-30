@@ -108,7 +108,7 @@ class _LoginPageState extends State<LoginPage> {
     final snackBar = SnackBar(
       content: Text(text),
       backgroundColor: isLoginSuccess ? Colors.green : Colors.red,
-      duration: const Duration(milliseconds: 800), // singkat saja
+      duration: const Duration(milliseconds: 800), 
     );
     ScaffoldMessenger.of(context).showSnackBar(snackBar);
 
@@ -124,3 +124,4 @@ class _LoginPageState extends State<LoginPage> {
     }
   }
 }
+
