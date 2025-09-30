@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
             child: GridView.builder(
               padding: const EdgeInsets.all(10),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2, // jumlah kolom
+                crossAxisCount: 2,
                 childAspectRatio: 0.6,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
@@ -106,3 +106,4 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
